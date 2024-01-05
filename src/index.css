@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.service-flex-reverse:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.service-flex-reverse:nth-child(even) .service-wrapper-div {
+  right: 48px;
+}
