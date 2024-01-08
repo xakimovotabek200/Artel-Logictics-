@@ -21,7 +21,7 @@ export const PAGES = [
   },
   {
     title: "Employment",
-    path: "/employment",
+    path: "/employee",
   },
   {
     title: "Contact",

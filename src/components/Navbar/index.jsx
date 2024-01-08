@@ -40,20 +40,20 @@ const Navbar = () => {
                 language === "uz"
                   ? Uzb
                   : language === "eng"
-                  ? Eng
-                  : language === "ru"
-                  ? Rus
-                  : Globe
+                    ? Eng
+                    : language === "ru"
+                      ? Rus
+                      : Globe
               }
               className="w-5 aspect-square rounded-full"
             />
             {language === "uz"
               ? "O'zbek"
               : language === "eng"
-              ? "English"
-              : language === "ru"
-              ? "Russian"
-              : "Languge"}
+                ? "English"
+                : language === "ru"
+                  ? "Russian"
+                  : "Languge"}
           </button>
           {isLanguageOpen && (
             <menu
@@ -132,9 +132,8 @@ const Navbar = () => {
             <li key={ind}>
               <Link
                 to={page.path}
-                className={`bg-gray-300 py-2 md:px-5 lg:px-10 text-lg border-r-8 border-primary inline-block -skew-x-[15deg] hover:bg-gray-200 hover:text-black ${
-                  pathname === page.path && "bg-secondary text-white"
-                }`}
+                className={`bg-gray-300 py-2 md:px-5 lg:px-10 text-lg border-r-8 border-primary inline-block -skew-x-[15deg] hover:bg-gray-200 hover:text-black ${pathname === page.path && "bg-secondary text-white"
+                  }`}
               >
                 <div className="skew-x-[15deg]">{page.title}</div>
               </Link>

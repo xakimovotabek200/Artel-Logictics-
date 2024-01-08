@@ -15,7 +15,7 @@ const News = () => {
             <hr className="border-2 border-black w-[100px]" />
           </div>
           <div>
-            <span className="fa-solid fa-bars"/>
+            <span className="fa-solid fa-bars" />
           </div>
           <div>
             <hr className="border-2 border-black w-[100px]" />
@@ -48,7 +48,7 @@ const News = () => {
                 </p>
                 <Link
                   href="#"
-                  className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:bg-blue-800 focus:ring-4 "
                 >
                   Read more
                   <svg
@@ -86,7 +86,7 @@ const News = () => {
                 </p>
                 <Link
                   href="#"
-                  className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-secondary  rounded-lg hover:bg-secondary  focus:ring-4 "
                 >
                   Read more
                   <svg
@@ -124,7 +124,7 @@ const News = () => {
                 </p>
                 <Link
                   href="#"
-                  className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-secondary  rounded-lg hover:bg-blue-800 focus:ring-4 "
                 >
                   Read more
                   <svg
